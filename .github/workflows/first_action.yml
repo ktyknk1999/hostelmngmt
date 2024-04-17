@@ -1,10 +1,10 @@
 on:
   push:
     branches: 
-      - main
+      - master
 jobs:
   run_pull:
-    name: runn pull
+    name: run pull
     runs-on: ubuntu-latest
     steps:
       - name: install ssh keys
